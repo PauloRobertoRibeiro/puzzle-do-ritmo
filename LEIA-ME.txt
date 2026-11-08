@@ -1,0 +1,22 @@
+PUZZLE DO RITMO — VERSÃO 0.3
+
+12 melodias originais, organizadas em 3 etapas.
+
+PUBLICAR NO GITHUB
+1. Crie um repositório público chamado puzzle-do-ritmo.
+2. Extraia este ZIP para uma pasta nova. Não misture com Pauta ou ChordBook.
+3. Envie os ARQUIVOS desta pasta para a raiz do repositório. O index.html precisa aparecer na primeira tela do repositório, junto de app.js e songs.js.
+4. Confirme o envio (Commit changes).
+5. Abra Settings > Pages. Em Source, selecione Deploy from a branch. Escolha main e /(root). Clique em Save.
+6. Aguarde a publicação ficar verde em Actions. O endereço confirmado aparecerá em Settings > Pages.
+
+INSTALAR NO TELEFONE
+Android: abra o endereço publicado no Chrome. Use Instalar aplicativo, ou ⋮ > Adicionar à tela inicial > Instalar.
+iPhone/iPad: abra no Safari. Compartilhar > Adicionar à Tela de Início.
+Computador: Chrome/Edge > botão ou ícone de instalação.
+A instalação não precisa de APK nem da Play Store.
+
+IMPORTANTE
+O progresso fica no navegador. Para trazer os estudos da versão anterior ou de outro aparelho, use Guardar cópia antes e Restaurar cópia no novo endereço.
+Abra uma vez com internet para preparar os arquivos offline. As instruções faladas dependem das vozes do aparelho; os sons musicais são gerados pelo próprio aplicativo.
+As melodias são exercícios originais. Nesta etapa as alturas das notas são guiadas; você monta o ritmo.
