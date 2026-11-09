@@ -1,22 +1,57 @@
-PUZZLE DO RITMO — VERSÃO 0.3
+PUZZLE DO RITMO — 0.5 — 08/11/2026
 
-12 melodias originais, organizadas em 3 etapas.
+PARA EXPERIMENTAR NO COMPUTADOR
+Extraia esta pasta inteira. Abra index.html no Chrome ou Edge.
+O áudio exige clicar num botão. A instalação e o funcionamento sem internet
+ficam disponíveis quando o pacote estiver publicado por HTTPS.
 
-PUBLICAR NO GITHUB
-1. Crie um repositório público chamado puzzle-do-ritmo.
-2. Extraia este ZIP para uma pasta nova. Não misture com Pauta ou ChordBook.
-3. Envie os ARQUIVOS desta pasta para a raiz do repositório. O index.html precisa aparecer na primeira tela do repositório, junto de app.js e songs.js.
-4. Confirme o envio (Commit changes).
-5. Abra Settings > Pages. Em Source, selecione Deploy from a branch. Escolha main e /(root). Clique em Save.
-6. Aguarde a publicação ficar verde em Actions. O endereço confirmado aparecerá em Settings > Pages.
+NOVIDADES
+- 6 aulas guiadas: pulsação, silêncio, colcheias, mínima, semicolcheias e pontuado.
+- 18 melodias originais / 72 compassos, organizados em 3 etapas.
+- Comparação da sua versão com a correta; verde/certo e laranja/rever.
+  Também há texto para não depender apenas da cor. Toque na peça da sua
+  versão para escutá-la. Pode ouvir um compasso correto isoladamente.
+- Repetição opcional da resposta, limitada a 4 execuções. Parar cancela tudo.
+- Abra “06 · Toque o ritmo”: ouça, comece sua tentativa, espere a contagem
+  e toque no botão ou barra de espaço. Nas pausas não toque.
+- Resultado por ataque: faltou, extra, no tempo, um pouco antes/depois.
+  Este exercício avalia inícios das notas, não sua duração sustentada.
+- Histórico local limitado às últimas 100 práticas e revisão do ritmo
+  com mais tentativas para rever. As últimas 8 aparecem na tela.
+- “Primeiros passos” usa peças maiores e instruções faladas nas aulas
+  quando o aparelho tem voz portuguesa disponível; adulto acompanha crianças.
 
-INSTALAR NO TELEFONE
-Android: abra o endereço publicado no Chrome. Use Instalar aplicativo, ou ⋮ > Adicionar à tela inicial > Instalar.
-iPhone/iPad: abra no Safari. Compartilhar > Adicionar à Tela de Início.
-Computador: Chrome/Edge > botão ou ícone de instalação.
-A instalação não precisa de APK nem da Play Store.
+SOM E PRECISÃO
+Prefira alto-falante ou fones com fio. Bluetooth pode atrasar a escuta.
+O ajuste em “Atraso do aparelho” permite compensação manual de -250 a 250 ms.
+A margem para os toques se adapta à separação entre ataques (45 a 180 ms).
+Não há microfone nem reconhecimento de palmas ou de piano.
 
-IMPORTANTE
-O progresso fica no navegador. Para trazer os estudos da versão anterior ou de outro aparelho, use Guardar cópia antes e Restaurar cópia no novo endereço.
-Abra uma vez com internet para preparar os arquivos offline. As instruções faladas dependem das vozes do aparelho; os sons musicais são gerados pelo próprio aplicativo.
-As melodias são exercícios originais. Nesta etapa as alturas das notas são guiadas; você monta o ritmo.
+DADOS
+Usa o mesmo armazenamento da versão anterior no MESMO endereço.
+“Guardar cópia” inclui o histórico novo. Uma pasta local e o site são
+endereços diferentes: use Guardar/Restaurar para transferir os estudos.
+Não limpe os dados do navegador para atualizar. Nenhum cadastro é exigido.
+
+GITHUB (QUANDO FORMOS PUBLICAR)
+Na raiz de puzzle-do-ritmo, envie todos os arquivos desta pasta,
+substituindo os existentes, e mantenha os arquivos .js juntos ao index.html.
+Os arquivos NOVOS training-core.js e training.js são necessários.
+O diretório tests é opcional para executar a validação com Node.
+Não é preciso mudar DNS, repositório ou endereço do aplicativo.
+Espere o sinal verde em Actions e atualize a app pelo botão de atualização.
+
+TESTES FEITOS
+- Sintaxe de todos os JavaScript.
+- 14.310 verificações automáticas, com 5.400 frases aleatórias e
+  3.000 simulações de alinhamento de toques. Comando: node tests/regression.cjs
+- 18 melodias / 72 compassos: durações e número de alturas consistentes.
+- Interface: 18 respostas renderizadas, aula guiada, tentativa correta,
+  tentativa errada, retomada do progresso e histórico após recarregar.
+- Áudio: partida/parada repetidas 8 vezes seguidas e cancelamento da tentativa.
+- Layout inspecionado no navegador com quadro de 360 e 390 px.
+
+LIMITES DA VERIFICAÇÃO
+Não equivale a um teste prolongado no seu telefone físico ou no Safari/iPad.
+A precisão ao tocar depende do aparelho, do navegador e da saída de áudio.
+Não foram observados travamentos nas sequências testadas.
