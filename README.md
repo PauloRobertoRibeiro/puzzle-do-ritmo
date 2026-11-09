@@ -1,7 +1,7 @@
-# Puzzle do Ritmo 0.5
+# Puzzle do Ritmo 0.6
 
-18 melodias originais, seis aulas, comparação visual, treino de ataques e histórico local.
+Estudo compacto para celular e tablet: um compasso por tela, peças e controles fixos, menu de atividades e painéis separados.
 
-Consulte LEIA-ME.txt para testar, publicar e conhecer a verificação realizada.
+18 melodias, 6 aulas, comparação, treino de ataques e histórico mantidos.
 
-Teste: `node tests/regression.cjs`.
+Consulte LEIA-ME.txt. Validação: `node tests/regression.cjs`.

@@ -1,3 +1,49 @@
+PUZZLE DO RITMO — 0.6 — ESTUDO SEM ROLAR A PÁGINA — 09/11/2026
+
+NO CELULAR E TABLET
+- O estudo abre automaticamente na área compacta.
+- Menu: escolha uma atividade, aulas/histórico, ajustes, ajuda ou cópias.
+- A partitura mostra UM compasso por vez. Use as setas ao lado do número.
+- As peças e os botões de ouvir, desfazer, conferir e resposta ficam na tela.
+- Toque numa peça e depois no espaço vazio para colocar. Também pode arrastar.
+- “Resposta” e “Conferir” abrem a comparação em um painel separado.
+  “Voltar ao estudo” retorna ao mesmo compasso, sem apagar sua montagem.
+- “Trocar música” abre a lista. O menu da música também permite ouvi-la inteira.
+- “Toque o ritmo” tem sua própria tela com o botão grande e os controles.
+  O resultado detalhado abre separado, sem empurrar a área de tocar.
+- Menus, respostas longas e a faixa de peças podem rolar por dentro.
+  A página de estudo permanece fixa.
+- O botão ⛶ usa tela cheia se o navegador permitir. No iPhone/iPad e em outros
+  navegadores sem suporte, instale e abra pelo ícone para esconder a barra.
+
+NO COMPUTADOR
+A apresentação anterior é mantida em telas largas. Também há um botão
+“Modo de estudo compacto”. No menu > Ajuda e cópias pode voltar à página completa.
+
+PARA PUBLICAR
+Extraia este ZIP em uma PASTA NOVA. Envie o conteúdo da pasta à raiz do mesmo
+repositório puzzle-do-ritmo, substituindo os arquivos correspondentes.
+Os NOVOS focus.js e focus.css são obrigatórios, junto com index.html e sw.js.
+A pasta tests é opcional na hospedagem.
+O endereço continua igual. Não altere DNS ou configurações do GitHub Pages.
+Espere Actions terminar e use a atualização disponível na versão antiga.
+NÃO apague dados do navegador para atualizar: isso removeria os estudos.
+Guarde uma cópia pelo aplicativo antes, se quiser uma segurança adicional.
+
+TESTES DESTA ALTERAÇÃO
+- Sintaxe JavaScript e 14.310 verificações musicais da base passaram.
+- Interface testada em quadros de 360x640, 390x760 e 800x360 (deitado).
+  Em todos, altura de rolagem do documento igual à altura da tela, e sem
+  transbordamento horizontal da página.
+- Testados menu, troca de música, colocação de peças, avanço/retorno do
+  compasso, resposta em painel, aulas, reconhecimento e ajustes.
+- A montagem foi mantida ao trocar compassos e voltar ao estudo.
+- Sem mudanças no motor de áudio, nas 18 melodias ou na chave do progresso.
+- Falta a confirmação no seu celular físico e no Safari/iPad.
+- Ainda não publicado automaticamente no GitHub; este é o pacote para enviar.
+
+RECURSOS E TESTES DA BASE 0.5
+
 PUZZLE DO RITMO — 0.5 — 08/11/2026
 
 PARA EXPERIMENTAR NO COMPUTADOR
