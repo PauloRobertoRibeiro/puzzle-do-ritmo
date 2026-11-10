@@ -1,3 +1,9 @@
+VERSÃO 0.8.2 — ESTUDO SEM PRESSA
+O avanço automático começa desativado, incluindo nas instalações antigas.
+Ao fim de cada compasso, o próximo aparece e espera você tocar em Próximo compasso.
+Ao continuar: dois segundos para observar, depois a contagem (se ativada) e a execução.
+O avanço contínuo pode ser ativado em Ajustes. Escolher outro estudo de duas claves volta ao modo por compasso.
+
 ATUALIZAÇÃO 0.8.1
 A partitura aparece antes da contagem, com dois segundos para observar.
 Envie todo o conteúdo desta pasta ao mesmo repositório, substituindo os arquivos existentes.
