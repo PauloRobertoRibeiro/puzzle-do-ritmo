@@ -1,161 +1,27 @@
-PUZZLE DO RITMO — 0.7 — TOCAR JUNTO — 10/11/2026
+PUZZLE DO RITMO 0.8 — DUAS CLAVES
 
-COMO USAR
-1. No celular, abra Menu > 07 · Tocar junto com a partitura.
-   No computador também há “Tocar junto” no cabeçalho.
-2. Em ⚙ escolha um dos DOIS exercícios transcritos dos seus prints.
-   São 8 e 9 compassos, em clave de Sol / 4/4.
-3. Comece devagar: o padrão inicial é 60 BPM. O botão “Andamento do print”
-   usa 90 BPM no primeiro e 115 BPM no segundo.
-4. Clique “Tocar junto”. O programa conta quatro tempos (opcional), toca
-   a melodia e destaca a nota verde. Toque no seu teclado ou cante junto.
-5. O compasso avança automaticamente. O seguinte aparece abaixo.
-6. “Pausar” e “Continuar” retomam do mesmo ponto. “Parar” volta ao início
-   do trecho escolhido. As setas permitem examinar outros compassos.
-7. “Só este compasso” toca o compasso que está na tela.
-8. Em ⚙ pode escolher do compasso X até Y e repetir 1, 2 ou 4 vezes,
-   desligar os nomes Dó/Ré/Mi, a contagem e o metrônomo, ou mudar o volume.
-9. “Partitura” mostra todos os compassos. Toque num deles para selecioná-lo
-   como trecho de estudo. A visão geral pode rolar; a área de tocar é fixa.
-10. “Menu” retorna às outras atividades, mantendo os estudos anteriores.
+ATUALIZAR NO GITHUB
+Extraia o ZIP. Envie os arquivos desta pasta para a raiz do repositório puzzle-do-ritmo, substituindo os de mesmo nome. Inclua solfege-notation.js. Não envie o ZIP nem a pasta externa. Confirme Commit changes e aguarde Actions ficar verde.
 
-O QUE FOI TRANSCRITO
-Somente os DOIS exercícios visíveis nos prints, com crédito Crea Tu Música.
-Não são cinco exercícios: o título do vídeo fala em cinco, mas recebemos dois.
-As notas, durações, pausas e pontos foram regravados como dados e SVG.
-Não reproduzimos capturas, interface do Facebook ou marcas d'água na tela.
+COMO ESTUDAR
+Menu > 07 Tocar junto > Ajustes.
+Escolha a etapa e o estudo. Use Andamento sugerido para começar devagar.
+Etapa 1: clave de Sol, primeiras notas e pausas.
+Etapa 2: colcheias e saltos.
+Etapa 3: clave de Fá, mão esquerda.
+Etapa 4: duas claves, alternar e coordenar as mãos.
+Etapa 5: sustentar o baixo enquanto a direita se move.
+Etapa 6: ritmos independentes e acordes com melodia.
 
-LIMITES
-Este modo toca e mostra a posição. Não usa microfone, não recebe MIDI e não
-avalia se você tocou certo no instrumento. Não há voz cantando o solfejo;
-o áudio é um timbre sintetizado de nota sustentada. Não há custo de API.
-Para ouvir e ver a marcação juntas, prefira alto-falante ou fones com fio;
-Bluetooth pode atrasar o som em relação ao desenho.
+Pode ouvir só a direita, só a esquerda ou ambas nas peças com duas pautas.
+Desmarque Avançar automaticamente entre compassos para esperar entre eles.
+Use Próximo compasso para continuar quando estiver preparado.
+Pode reduzir a velocidade, repetir um compasso e esconder os nomes das notas.
+O programa não escuta nem corrige o som do seu instrumento neste modo.
 
-PUBLICAÇÃO
-Este pacote é COMPLETO e inclui a organização de tela da versão 0.6.
-Extraia em uma pasta nova e envie o conteúdo para a raiz do mesmo repositório
-puzzle-do-ritmo, substituindo os arquivos correspondentes.
-NOVOS: solfege-data.js, solfege.js, solfege.css.
-Mantenha também focus.js, focus.css e os demais arquivos do pacote.
-Espere Actions ficar verde e atualize o aplicativo existente. Não apague os
-dados do navegador. Pode usar Guardar cópia antes de atualizar.
-Ainda não foi publicado automaticamente no GitHub.
+ATUALIZAÇÃO NO CELULAR
+Abra a página com internet. Se aparecer Atualizar, toque e reabra.
+Os exercícios anteriores foram mantidos. A versão aparece como 0.8.
 
 VALIDAÇÃO
-- 41.787 verificações específicas: dois estudos, 17 compassos completos,
-  243 planos de trechos/repetições e cálculos em cinco velocidades.
-- Os testes da base (14.310 verificações) continuam passando.
-- Navegador: avanço automático, pausa/continuação, repetição do compasso 9
-  duas vezes até o fim, seleção na partitura inteira e lançamento pelo menu.
-- Telas de 360x640 e 800x360 sem transbordamento da página de estudo.
-- Sintaxe JavaScript e presença dos arquivos estáticos conferidas.
-- Falta sua prova no telefone físico e no teclado; não medimos a latência
-  acústica da saída de áudio do seu aparelho.
-Comandos: node tests/solfege.cjs ; node tests/regression.cjs
-
-INSTRUÇÕES ANTERIORES
-
-PUZZLE DO RITMO — 0.6 — ESTUDO SEM ROLAR A PÁGINA — 09/11/2026
-
-NO CELULAR E TABLET
-- O estudo abre automaticamente na área compacta.
-- Menu: escolha uma atividade, aulas/histórico, ajustes, ajuda ou cópias.
-- A partitura mostra UM compasso por vez. Use as setas ao lado do número.
-- As peças e os botões de ouvir, desfazer, conferir e resposta ficam na tela.
-- Toque numa peça e depois no espaço vazio para colocar. Também pode arrastar.
-- “Resposta” e “Conferir” abrem a comparação em um painel separado.
-  “Voltar ao estudo” retorna ao mesmo compasso, sem apagar sua montagem.
-- “Trocar música” abre a lista. O menu da música também permite ouvi-la inteira.
-- “Toque o ritmo” tem sua própria tela com o botão grande e os controles.
-  O resultado detalhado abre separado, sem empurrar a área de tocar.
-- Menus, respostas longas e a faixa de peças podem rolar por dentro.
-  A página de estudo permanece fixa.
-- O botão ⛶ usa tela cheia se o navegador permitir. No iPhone/iPad e em outros
-  navegadores sem suporte, instale e abra pelo ícone para esconder a barra.
-
-NO COMPUTADOR
-A apresentação anterior é mantida em telas largas. Também há um botão
-“Modo de estudo compacto”. No menu > Ajuda e cópias pode voltar à página completa.
-
-PARA PUBLICAR
-Extraia este ZIP em uma PASTA NOVA. Envie o conteúdo da pasta à raiz do mesmo
-repositório puzzle-do-ritmo, substituindo os arquivos correspondentes.
-Os NOVOS focus.js e focus.css são obrigatórios, junto com index.html e sw.js.
-A pasta tests é opcional na hospedagem.
-O endereço continua igual. Não altere DNS ou configurações do GitHub Pages.
-Espere Actions terminar e use a atualização disponível na versão antiga.
-NÃO apague dados do navegador para atualizar: isso removeria os estudos.
-Guarde uma cópia pelo aplicativo antes, se quiser uma segurança adicional.
-
-TESTES DESTA ALTERAÇÃO
-- Sintaxe JavaScript e 14.310 verificações musicais da base passaram.
-- Interface testada em quadros de 360x640, 390x760 e 800x360 (deitado).
-  Em todos, altura de rolagem do documento igual à altura da tela, e sem
-  transbordamento horizontal da página.
-- Testados menu, troca de música, colocação de peças, avanço/retorno do
-  compasso, resposta em painel, aulas, reconhecimento e ajustes.
-- A montagem foi mantida ao trocar compassos e voltar ao estudo.
-- Sem mudanças no motor de áudio, nas 18 melodias ou na chave do progresso.
-- Falta a confirmação no seu celular físico e no Safari/iPad.
-- Ainda não publicado automaticamente no GitHub; este é o pacote para enviar.
-
-RECURSOS E TESTES DA BASE 0.5
-
-PUZZLE DO RITMO — 0.5 — 08/11/2026
-
-PARA EXPERIMENTAR NO COMPUTADOR
-Extraia esta pasta inteira. Abra index.html no Chrome ou Edge.
-O áudio exige clicar num botão. A instalação e o funcionamento sem internet
-ficam disponíveis quando o pacote estiver publicado por HTTPS.
-
-NOVIDADES
-- 6 aulas guiadas: pulsação, silêncio, colcheias, mínima, semicolcheias e pontuado.
-- 18 melodias originais / 72 compassos, organizados em 3 etapas.
-- Comparação da sua versão com a correta; verde/certo e laranja/rever.
-  Também há texto para não depender apenas da cor. Toque na peça da sua
-  versão para escutá-la. Pode ouvir um compasso correto isoladamente.
-- Repetição opcional da resposta, limitada a 4 execuções. Parar cancela tudo.
-- Abra “06 · Toque o ritmo”: ouça, comece sua tentativa, espere a contagem
-  e toque no botão ou barra de espaço. Nas pausas não toque.
-- Resultado por ataque: faltou, extra, no tempo, um pouco antes/depois.
-  Este exercício avalia inícios das notas, não sua duração sustentada.
-- Histórico local limitado às últimas 100 práticas e revisão do ritmo
-  com mais tentativas para rever. As últimas 8 aparecem na tela.
-- “Primeiros passos” usa peças maiores e instruções faladas nas aulas
-  quando o aparelho tem voz portuguesa disponível; adulto acompanha crianças.
-
-SOM E PRECISÃO
-Prefira alto-falante ou fones com fio. Bluetooth pode atrasar a escuta.
-O ajuste em “Atraso do aparelho” permite compensação manual de -250 a 250 ms.
-A margem para os toques se adapta à separação entre ataques (45 a 180 ms).
-Não há microfone nem reconhecimento de palmas ou de piano.
-
-DADOS
-Usa o mesmo armazenamento da versão anterior no MESMO endereço.
-“Guardar cópia” inclui o histórico novo. Uma pasta local e o site são
-endereços diferentes: use Guardar/Restaurar para transferir os estudos.
-Não limpe os dados do navegador para atualizar. Nenhum cadastro é exigido.
-
-GITHUB (QUANDO FORMOS PUBLICAR)
-Na raiz de puzzle-do-ritmo, envie todos os arquivos desta pasta,
-substituindo os existentes, e mantenha os arquivos .js juntos ao index.html.
-Os arquivos NOVOS training-core.js e training.js são necessários.
-O diretório tests é opcional para executar a validação com Node.
-Não é preciso mudar DNS, repositório ou endereço do aplicativo.
-Espere o sinal verde em Actions e atualize a app pelo botão de atualização.
-
-TESTES FEITOS
-- Sintaxe de todos os JavaScript.
-- 14.310 verificações automáticas, com 5.400 frases aleatórias e
-  3.000 simulações de alinhamento de toques. Comando: node tests/regression.cjs
-- 18 melodias / 72 compassos: durações e número de alturas consistentes.
-- Interface: 18 respostas renderizadas, aula guiada, tentativa correta,
-  tentativa errada, retomada do progresso e histórico após recarregar.
-- Áudio: partida/parada repetidas 8 vezes seguidas e cancelamento da tentativa.
-- Layout inspecionado no navegador com quadro de 360 e 390 px.
-
-LIMITES DA VERIFICAÇÃO
-Não equivale a um teste prolongado no seu telefone físico ou no Safari/iPad.
-A precisão ao tocar depende do aparelho, do navegador e da saída de áudio.
-Não foram observados travamentos nas sequências testadas.
+Testes automáticos de compassos, durações, mãos, acordes, posições das notas, reprodução e modos anteriores passaram. Interface conferida no navegador. Teste também no seu próprio celular e teclado; a latência de áudio depende do aparelho e de fones Bluetooth.

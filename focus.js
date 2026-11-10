@@ -3,7 +3,7 @@
 (function(){
 const mq=matchMedia('(max-width:1100px), (pointer:coarse)'),home=new Map();let active=false,syncing=false,page=0,tapping=false,returnFocus=null;
 const root=document.createElement('section');root.id='focusApp';root.hidden=true;root.setAttribute('aria-label','Área de estudo');root.innerHTML=`
-<div class="focusHeader"><button id="focusMenu" aria-label="Abrir menu">☰ <span>Menu</span></button><div><small>PUZZLE DO RITMO · 0.7</small><strong id="focusTitle">Seu estudo</strong></div><button id="focusFull" aria-label="Usar tela cheia">⛶</button></div>
+<div class="focusHeader"><button id="focusMenu" aria-label="Abrir menu">☰ <span>Menu</span></button><div><small>PUZZLE DO RITMO · 0.8</small><strong id="focusTitle">Seu estudo</strong></div><button id="focusFull" aria-label="Usar tela cheia">⛶</button></div>
 <div class="focusContext"><button id="focusChoose">Escolher música ▾</button><button id="focusPrev" aria-label="Compasso anterior">‹</button><strong id="focusPage"></strong><button id="focusNext" aria-label="Próximo compasso">›</button></div>
 <div id="focusStage"><div id="focusExplore"></div></div>
 <div id="focusFeedback"></div><div id="focusAudio"></div><div id="focusPieces"><div class="focusPiecesHint">PEÇAS · toque e depois toque no espaço <span>deslize ↔</span></div></div><div id="focusActions"></div><div id="focusTapDock"></div>
