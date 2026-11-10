@@ -1,3 +1,61 @@
+PUZZLE DO RITMO — 0.7 — TOCAR JUNTO — 10/11/2026
+
+COMO USAR
+1. No celular, abra Menu > 07 · Tocar junto com a partitura.
+   No computador também há “Tocar junto” no cabeçalho.
+2. Em ⚙ escolha um dos DOIS exercícios transcritos dos seus prints.
+   São 8 e 9 compassos, em clave de Sol / 4/4.
+3. Comece devagar: o padrão inicial é 60 BPM. O botão “Andamento do print”
+   usa 90 BPM no primeiro e 115 BPM no segundo.
+4. Clique “Tocar junto”. O programa conta quatro tempos (opcional), toca
+   a melodia e destaca a nota verde. Toque no seu teclado ou cante junto.
+5. O compasso avança automaticamente. O seguinte aparece abaixo.
+6. “Pausar” e “Continuar” retomam do mesmo ponto. “Parar” volta ao início
+   do trecho escolhido. As setas permitem examinar outros compassos.
+7. “Só este compasso” toca o compasso que está na tela.
+8. Em ⚙ pode escolher do compasso X até Y e repetir 1, 2 ou 4 vezes,
+   desligar os nomes Dó/Ré/Mi, a contagem e o metrônomo, ou mudar o volume.
+9. “Partitura” mostra todos os compassos. Toque num deles para selecioná-lo
+   como trecho de estudo. A visão geral pode rolar; a área de tocar é fixa.
+10. “Menu” retorna às outras atividades, mantendo os estudos anteriores.
+
+O QUE FOI TRANSCRITO
+Somente os DOIS exercícios visíveis nos prints, com crédito Crea Tu Música.
+Não são cinco exercícios: o título do vídeo fala em cinco, mas recebemos dois.
+As notas, durações, pausas e pontos foram regravados como dados e SVG.
+Não reproduzimos capturas, interface do Facebook ou marcas d'água na tela.
+
+LIMITES
+Este modo toca e mostra a posição. Não usa microfone, não recebe MIDI e não
+avalia se você tocou certo no instrumento. Não há voz cantando o solfejo;
+o áudio é um timbre sintetizado de nota sustentada. Não há custo de API.
+Para ouvir e ver a marcação juntas, prefira alto-falante ou fones com fio;
+Bluetooth pode atrasar o som em relação ao desenho.
+
+PUBLICAÇÃO
+Este pacote é COMPLETO e inclui a organização de tela da versão 0.6.
+Extraia em uma pasta nova e envie o conteúdo para a raiz do mesmo repositório
+puzzle-do-ritmo, substituindo os arquivos correspondentes.
+NOVOS: solfege-data.js, solfege.js, solfege.css.
+Mantenha também focus.js, focus.css e os demais arquivos do pacote.
+Espere Actions ficar verde e atualize o aplicativo existente. Não apague os
+dados do navegador. Pode usar Guardar cópia antes de atualizar.
+Ainda não foi publicado automaticamente no GitHub.
+
+VALIDAÇÃO
+- 41.787 verificações específicas: dois estudos, 17 compassos completos,
+  243 planos de trechos/repetições e cálculos em cinco velocidades.
+- Os testes da base (14.310 verificações) continuam passando.
+- Navegador: avanço automático, pausa/continuação, repetição do compasso 9
+  duas vezes até o fim, seleção na partitura inteira e lançamento pelo menu.
+- Telas de 360x640 e 800x360 sem transbordamento da página de estudo.
+- Sintaxe JavaScript e presença dos arquivos estáticos conferidas.
+- Falta sua prova no telefone físico e no teclado; não medimos a latência
+  acústica da saída de áudio do seu aparelho.
+Comandos: node tests/solfege.cjs ; node tests/regression.cjs
+
+INSTRUÇÕES ANTERIORES
+
 PUZZLE DO RITMO — 0.6 — ESTUDO SEM ROLAR A PÁGINA — 09/11/2026
 
 NO CELULAR E TABLET

@@ -1,7 +1,7 @@
-# Puzzle do Ritmo 0.6
+# Puzzle do Ritmo 0.7
 
-Estudo compacto para celular e tablet: um compasso por tela, peças e controles fixos, menu de atividades e painéis separados.
+Modo Tocar junto: dois estudos transcritos dos prints enviados, partitura com cursor, nota atual destacada, pausa/continuação, andamento, metrônomo e repetição de trechos.
 
-18 melodias, 6 aulas, comparação, treino de ataques e histórico mantidos.
+Inclui as melhorias de tela fixa da versão 0.6 e os exercícios anteriores.
 
-Consulte LEIA-ME.txt. Validação: `node tests/regression.cjs`.
+Consulte LEIA-ME.txt. Testes: `node tests/solfege.cjs` e `node tests/regression.cjs`.
