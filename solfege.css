@@ -2,3 +2,25 @@ body.solfegeMode{overflow:hidden;height:100dvh;padding:0!important}body.solfegeM
 @media(max-height:600px){#solfegeApp{grid-template-rows:44px 38px minmax(100px,1fr) 40px 44px 48px;gap:4px}.solfegeHeader button{min-height:36px}.solfegeScore{padding:8px;grid-template-rows:16px minmax(60px,1fr)}.solfegeScore .nextCaption,#solfegeNextStaff{display:none}.solfegeTracker strong{font-size:15px}.solfegeTransport button{min-height:40px;font-size:11px}}
 @media(orientation:landscape) and (max-height:500px){#solfegeApp{grid-template-columns:minmax(0,1fr) 220px;grid-template-rows:42px 38px minmax(65px,1fr) 45px;gap:4px}.solfegeHeader{grid-column:1/-1}.solfegeContext{grid-column:1;grid-row:2}.solfegeScore{grid-column:1;grid-row:3/5}.solfegeTracker{grid-column:2;grid-row:2;flex-wrap:wrap;padding:4px 8px}.solfegeTracker strong{font-size:14px}.solfegeTracker span{font-size:10px}#solfegeStatus{grid-column:2;grid-row:3}.solfegeTransport{grid-column:2;grid-row:4;gap:3px}.solfegeTransport #solfegeStop{flex:0 0 48px}.solfegeTransport button{font-size:10px;padding:4px}.solfegeTransport #solfegeThisBar{max-width:75px}}
 .solfegePreparing #solfegeNextStaff{opacity:1;background:#f1ecfc;border-radius:12px;outline:2px solid #a896db}.solfegePreparing .nextCaption{color:#6551ac;font-weight:800}.solfegePreparing #solfegeStatus{background:#eee5ff;color:#52398d;font-weight:650}.solfegeGrand .solfegeTracker strong{font-size:13px;line-height:1.35}.solfegeGrand .solfegeTracker span{font-size:10px}.staff-left .solfegeActive{color:#235eac}.staff-left .solfegeActive .solfegeNoteBg{fill:#dceaff}.staff-left .solfegeActive .solfegeNoteName{fill:#235eac}#solfegeApp[data-hands="left"] .staff-right,#solfegeApp[data-hands="right"] .staff-left{opacity:.28}#solfegeLessonTip{background:#eee8f8;border-radius:10px;padding:10px;color:#56456e;line-height:1.6}#solfegeStage{font-weight:650}@media(min-height:601px){.solfegeGrand .solfegeScore{grid-template-rows:18px minmax(190px,1fr) 18px 65px}.solfegeGrand #solfegeNextStaff svg{height:100%;width:100%;opacity:.9}}
+
+/* 0.8.3: two equally readable measures, with a continuous musical pulse. */
+#solfegeApp{grid-template-rows:46px 36px minmax(120px,1fr) 36px 34px 48px;gap:4px;padding-left:6px;padding-right:6px}
+.solfegeScore,.solfegeGrand .solfegeScore{grid-template-columns:minmax(0,1fr);grid-template-rows:16px minmax(0,1fr) 16px minmax(0,1fr);gap:2px;padding:6px}
+#solfegeMainStaff,#solfegeNextStaff{display:flex;min-width:0;min-height:0;border-radius:10px}
+#solfegeMainStaff{background:#f0faf5;box-shadow:inset 3px 0 #2c9c7b}
+#solfegeNextStaff{opacity:1;background:#faf8ff;box-shadow:inset 3px 0 #b3a4d2}
+.solfegeScore .nextCaption{display:flex;padding-top:2px;color:#6551ac}
+#solfegeMainStaff svg,#solfegeNextStaff svg,.solfegeGrand #solfegeNextStaff svg{width:100%;height:100%;opacity:1}
+.solfegeHeader button{min-height:36px}.solfegeContext button{height:34px}
+.solfegeTracker{padding:4px 8px}.solfegeTracker strong{font-size:13px}
+#solfegeStatus{font-size:11px;line-height:1.25;padding:4px 8px}
+.solfegeTransport button{min-height:42px}
+@media(orientation:landscape){
+ #solfegeApp{grid-template-columns:minmax(0,1fr);grid-template-rows:40px 34px minmax(90px,1fr) 30px 28px 42px}
+ .solfegeHeader,.solfegeContext,.solfegeScore,.solfegeTracker,#solfegeStatus,.solfegeTransport{grid-column:1;grid-row:auto}
+ .solfegeScore,.solfegeGrand .solfegeScore{grid-template-columns:minmax(0,1fr) minmax(0,1fr);grid-template-rows:16px minmax(0,1fr);column-gap:10px}
+ .solfegeScore>.solfegeMeasureCaption:not(.nextCaption){grid-column:1;grid-row:1}
+ #solfegeMainStaff{grid-column:1;grid-row:2}
+ .solfegeScore>.nextCaption{grid-column:2;grid-row:1;border-top:0}
+ #solfegeNextStaff{grid-column:2;grid-row:2}
+}

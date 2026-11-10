@@ -1,37 +1,7 @@
-VERSÃO 0.8.2 — ESTUDO SEM PRESSA
-O avanço automático começa desativado, incluindo nas instalações antigas.
-Ao fim de cada compasso, o próximo aparece e espera você tocar em Próximo compasso.
-Ao continuar: dois segundos para observar, depois a contagem (se ativada) e a execução.
-O avanço contínuo pode ser ativado em Ajustes. Escolher outro estudo de duas claves volta ao modo por compasso.
-
-ATUALIZAÇÃO 0.8.1
-A partitura aparece antes da contagem, com dois segundos para observar.
-Envie todo o conteúdo desta pasta ao mesmo repositório, substituindo os arquivos existentes.
-
-PUZZLE DO RITMO 0.8 — DUAS CLAVES
-
-ATUALIZAR NO GITHUB
-Extraia o ZIP. Envie os arquivos desta pasta para a raiz do repositório puzzle-do-ritmo, substituindo os de mesmo nome. Inclua solfege-notation.js. Não envie o ZIP nem a pasta externa. Confirme Commit changes e aguarde Actions ficar verde.
-
-COMO ESTUDAR
-Menu > 07 Tocar junto > Ajustes.
-Escolha a etapa e o estudo. Use Andamento sugerido para começar devagar.
-Etapa 1: clave de Sol, primeiras notas e pausas.
-Etapa 2: colcheias e saltos.
-Etapa 3: clave de Fá, mão esquerda.
-Etapa 4: duas claves, alternar e coordenar as mãos.
-Etapa 5: sustentar o baixo enquanto a direita se move.
-Etapa 6: ritmos independentes e acordes com melodia.
-
-Pode ouvir só a direita, só a esquerda ou ambas nas peças com duas pautas.
-Desmarque Avançar automaticamente entre compassos para esperar entre eles.
-Use Próximo compasso para continuar quando estiver preparado.
-Pode reduzir a velocidade, repetir um compasso e esconder os nomes das notas.
-O programa não escuta nem corrige o som do seu instrumento neste modo.
-
-ATUALIZAÇÃO NO CELULAR
-Abra a página com internet. Se aparecer Atualizar, toque e reabra.
-Os exercícios anteriores foram mantidos. A versão aparece como 0.8.
-
-VALIDAÇÃO
-Testes automáticos de compassos, durações, mãos, acordes, posições das notas, reprodução e modos anteriores passaram. Interface conferida no navegador. Teste também no seu próprio celular e teclado; a latência de áudio depende do aparelho e de fones Bluetooth.
+VERSÃO 0.8.3 — DOIS COMPASSOS VISÍVEIS
+A música segue sem interrupção. Compasso atual e próximo têm o mesmo espaço.
+Celular em pé: um acima do outro. Deitado: lado a lado.
+O próximo compasso recebe destaque dois tempos antes da mudança.
+Avanço automático ativado nesta atualização; pode desativá-lo nos ajustes.
+Mantida a preparação inicial de dois segundos antes da contagem.
+Envie todo o conteúdo ao mesmo repositório, substituindo os arquivos.
